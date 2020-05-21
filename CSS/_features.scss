@@ -1,0 +1,22 @@
+.features{
+    background-color: $mainBg;
+
+
+    .feature-grid{
+        max-width: 880px;
+        margin: 0 auto;
+        
+        
+
+        @include breakpoint(medium){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .feature{
+        border: 1px solid red;
+        min-height: 150px;
+    }
+
+}
