@@ -11,7 +11,7 @@
         position: absolute;
         bottom: 0px;
         width: 100%;
-        height: 120px;
+        height: 40vw;
         background-image: url(../images/bg-curvy-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 
         @include breakpoint(medium){
             background-image: url(../images/bg-curvy-desktop.svg);
-            height: 420px;
+            height: 33vw;
    
         }
     }
