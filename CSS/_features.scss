@@ -6,8 +6,10 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 6vw 10vw;
-        max-width: 880px;
+        max-width: 920px;
         margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
         
         
 
@@ -17,6 +19,8 @@
 
         @include breakpoint(large){
             gap: 6vw 7vw;
+            padding-left: 60px;
+            padding-right: 60px;
         }
     }
 

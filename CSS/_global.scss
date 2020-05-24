@@ -43,7 +43,6 @@ p{
 
 
 section{
-    padding: 0 27px 160px;
     background-color: $mainBg;
 }
 
@@ -62,5 +61,19 @@ button{
         background: linear-gradient(to right,  #329ecc, #329ecc);
 
     }
+    
+    }
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 20px 100px 20px;
+
+    @include breakpoint(large){
+        padding: 73px 60px 87px 60px;
+
+    }
 }
+       
+
+
 
